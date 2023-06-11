@@ -1,13 +1,20 @@
 <script setup lang="ts">
 import type { RouterView } from 'vue-router'
+import prmLogo from '@/assets/prm-icon.png'
 </script>
 
 <template>
   <v-layout>
-    <v-app-bar title="Return to Morroc Skill Planner"></v-app-bar>
+    <v-app-bar title="Return to Morroc Skill Planner">
+      <template #image> <v-img :src="prmLogo"></v-img> </template>
+    </v-app-bar>
 
     <v-main>
-      <RouterView />
+      <v-container fluid>
+        <v-sheet>
+          <RouterView />
+        </v-sheet>
+      </v-container>
     </v-main>
   </v-layout>
 </template>
