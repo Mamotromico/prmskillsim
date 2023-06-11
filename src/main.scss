@@ -1,0 +1,7 @@
+@use 'vuetify' with (
+  $utilities: false,
+  $color-pack: false,
+  $body-font-family: 'Amaranth'
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');

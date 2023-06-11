@@ -1,21 +1,15 @@
 <script setup lang="ts">
-import type { RouterView } from 'vue-router';
-import { NLayout, NPageHeader, NLayoutHeader, NLayoutFooter, NLayoutContent } from 'naive-ui'
-
+import type { RouterView } from 'vue-router'
 </script>
 
 <template>
-    <n-layout>
-        <n-layout-header>
-            <n-page-header></n-page-header>
-        </n-layout-header>
-        <n-layout-content>
-            <RouterView />
-        </n-layout-content>
-        <n-layout-footer></n-layout-footer>
-    </n-layout>
+  <v-layout>
+    <v-app-bar title="Return to Morroc Skill Planner"></v-app-bar>
+
+    <v-main>
+      <RouterView />
+    </v-main>
+  </v-layout>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
