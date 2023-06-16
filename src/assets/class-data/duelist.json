@@ -1,0 +1,184 @@
+{
+  "jobName": "Duelist",
+  "category": "specialization",
+  "prerequisite": "thief",
+  "skillPoints": 69,
+  "skills": {
+    "tunneldrive": {
+      "skillName": "Tunnel Drive ",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 5,
+      "y": 3
+    },
+    "chasewalk": {
+      "skillName": "Chase Walk",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 5,
+      "y": 1
+    },
+    "sneakattack": {
+      "skillName": "Sneak Attack",
+      "maxLevel": 5,
+      "prereq": [{ "tunneldrive": 1 }],
+      "description": "skill",
+      "x": 6,
+      "y": 2
+    },
+    "magicpierce": {
+      "skillName": "Magic Pierce",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 7,
+      "y": 1
+    },
+    "frostdiver": {
+      "skillName": "Frost Diver",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 3,
+      "y": 1
+    },
+    "fireball": {
+      "skillName": "Fire Ball",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 4,
+      "y": 2
+    },
+    "blademastery": {
+      "skillName": "Blade Mastery",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 3,
+      "y": 3
+    },
+    "overpower": {
+      "skillName": "Overpower",
+      "maxLevel": 5,
+      "prereq": [{ "blademastery": 1 }],
+      "description": "skill",
+      "x": 7,
+      "y": 3
+    },
+    "windslash": {
+      "skillName": "Wind Slash",
+      "maxLevel": 10,
+      "prereq": [{ "overpower": 1 }],
+      "description": "skill",
+      "x": 6,
+      "y": 4
+    },
+    "faceoff": {
+      "skillName": "Face-Off",
+      "maxLevel": 5,
+      "prereq": [{ "windslash": 1 }],
+      "description": "skill",
+      "x": 6,
+      "y": 5
+    },
+    "gadgetmastery": {
+      "skillName": "Gadget Mastery",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 3,
+      "y": 7
+    },
+    "decoy": {
+      "skillName": "Decoy",
+      "maxLevel": 5,
+      "prereq": [{ "gadgetmastery": 1 }],
+      "description": "skill",
+      "x": 4,
+      "y": 4
+    },
+    "throwacid": {
+      "skillName": "Throw Acid",
+      "maxLevel": 10,
+      "prereq": [{ "gadgetmastery": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 5
+    },
+    "throwmolotov": {
+      "skillName": "Throw Molotov",
+      "maxLevel": 5,
+      "prereq": [{ "gadgetmastery": 1 }],
+      "description": "skill",
+      "x": 4,
+      "y": 5
+    },
+    "bowmastery": {
+      "skillName": "Bow Mastery",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 4,
+      "y": 6
+    },
+    "arrowvulcan": {
+      "skillName": "Arrow Vulcan",
+      "maxLevel": 10,
+      "prereq": [{ "bowmastery": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 6
+    },
+    "coinflip": {
+      "skillName": "Coin Flip",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    },
+    "ricochetarrow": {
+      "skillName": "Ricochet Arrow",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    },
+    "shieldmastery": {
+      "skillName": "Shield Mastery",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    },
+    "shieldboomerang": {
+      "skillName": "Shield Boomerang",
+      "maxLevel": 5,
+      "prereq": [{ "shieldmastery": 1 }],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    },
+    "reflectshield": {
+      "skillName": "Reflect Shield",
+      "maxLevel": 10,
+      "prereq": [{ "shieldmastery": 1 }],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    },
+    "cover": {
+      "skillName": "Cover",
+      "maxLevel": 5,
+      "prereq": [{ "shieldmastery": 1 }],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    }
+  }
+}

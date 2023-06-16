@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import ClassSelection from '../views/ClassSelection.vue'
+import ClassSelection from '@/views/ClassSelection.vue'
+import SkillSim from '@/views/SkillSim.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,11 +11,10 @@ const router = createRouter({
       component: ClassSelection
     },
     {
-      path: '/skillsim',
+      path: '/skillsim/:jobClassName',
       name: 'skill-sim',
-      component: () => {
-        import('@/views/SkillSim.vue')
-      }
+      component: SkillSim,
+      props: true
     }
   ]
 })

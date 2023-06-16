@@ -4,57 +4,29 @@ import ClassCard from '@/components/ClassCard.vue'
 
 <template>
   <v-container fluid class="fill-height">
-    <v-row no-gutters>
-      <v-col cols="12">
-        <class-card jobClassName="Orphan" />
-      </v-col>
-    </v-row>
     <v-row>
-      <v-col class="c10-c10">
-        <class-card jobClassName="Thief" />
+      <v-col cols="4">
+        <class-card jobClassName="Unchained Assassin" />
+      </v-col>
+      <v-col cols="4">
+        <class-card jobClassName="Phantom Thief" />
+      </v-col>
+      <v-col cols="4">
+        <class-card jobClassName="Unchained Rogue" />
       </v-col>
       <v-col class="c10-c4">
         <v-row>
-          <v-col cols="12"> <class-card jobClassName="Assassin" /> </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Blade Dancer" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Night Raven" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Night Raven" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Shinobi" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Satsujin" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Satsujin" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Executioner" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Grave Keeper" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Grave Keeper" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Scoundrel" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Black Plague" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Black Plague" />
           </v-col>
         </v-row>
       </v-col>
@@ -66,48 +38,17 @@ import ClassCard from '@/components/ClassCard.vue'
       </v-col>
       <v-col class="c10-c4">
         <v-row>
-          <v-col cols="12">
-            <class-card jobClassName="Rogue" />
+          <v-col cols="3">
+            <class-card jobClassName="Arcane Master" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Mystic" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Arcane Master" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="King Slayer" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Duelist" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="King Slayer" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Sinner" />
           </v-col>
           <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Deadeye" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Sinner" />
-              </v-col>
-            </v-row>
-          </v-col>
-          <v-col cols="3">
-            <v-row>
-              <v-col cols="12">
-                <class-card jobClassName="Saboteur" />
-              </v-col>
-              <v-col cols="12">
-                <class-card jobClassName="Blast Juggler" />
-              </v-col>
-            </v-row>
+            <class-card jobClassName="Blast Juggler" />
           </v-col>
         </v-row>
       </v-col>

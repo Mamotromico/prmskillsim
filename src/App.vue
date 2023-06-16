@@ -12,7 +12,7 @@ import prmLogo from '@/assets/prm-icon.png'
     <v-main>
       <v-container fluid>
         <v-sheet>
-          <RouterView />
+          <router-view />
         </v-sheet>
       </v-container>
     </v-main>

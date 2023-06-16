@@ -1,0 +1,144 @@
+{
+  "jobName": "Thief",
+  "category": "basic",
+  "prerequisite": "none",
+  "skillPoints": 49,
+  "skills": {
+    "backstab": {
+      "skillName": "Back Stab",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 5,
+      "y": 3
+    },
+    "improvedodge": {
+      "skillName": "Improve Dodge",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 5,
+      "y": 1
+    },
+    "rollingcutter": {
+      "skillName": "Rolling Cutter",
+      "maxLevel": 5,
+      "prereq": [],
+      "description": "skill",
+      "x": 6,
+      "y": 2
+    },
+    "crossripperslash": {
+      "skillName": "Cross Ripper Slash",
+      "maxLevel": 5,
+      "prereq": [{ "rollingcutter": 1 }],
+      "description": "skill",
+      "x": 7,
+      "y": 1
+    },
+    "arrowshower": {
+      "skillName": "Arrow Shower",
+      "maxLevel": 10,
+      "prereq": [{ "doublestrafe": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 1
+    },
+    "doublestrafe": {
+      "skillName": "Double Strafe",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 4,
+      "y": 2
+    },
+    "imprewisdom": {
+      "skillName": "Improve Wisdom",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 3,
+      "y": 3
+    },
+    "improvedefense": {
+      "skillName": "Improve Defense",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 7,
+      "y": 3
+    },
+    "envenom": {
+      "skillName": "Envenom",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 6,
+      "y": 4
+    },
+    "enchantpoison": {
+      "skillName": "Enchant Poison",
+      "maxLevel": 10,
+      "prereq": [{ "envenom": 1 }],
+      "description": "skill",
+      "x": 6,
+      "y": 5
+    },
+    "detoxify": {
+      "skillName": "Detoxify",
+      "maxLevel": 10,
+      "prereq": [{ "enchantpoison": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 7
+    },
+    "increasesprecovery": {
+      "skillName": "Increase SP Recovery",
+      "maxLevel": 10,
+      "prereq": [],
+      "description": "skill",
+      "x": 4,
+      "y": 4
+    },
+    "windblade": {
+      "skillName": "Wind Blade",
+      "maxLevel": 10,
+      "prereq": [{ "increasesprecovery": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 5
+    },
+    "freezingspear": {
+      "skillName": "Freezing Spear",
+      "maxLevel": 10,
+      "prereq": [{ "increasesprecovery": 1 }],
+      "description": "skill",
+      "x": 4,
+      "y": 5
+    },
+    "flamingpetals": {
+      "skillName": "Flaming Petals",
+      "maxLevel": 10,
+      "prereq": [{ "increasesprecovery": 1 }],
+      "description": "skill",
+      "x": 4,
+      "y": 6
+    },
+    "autospell": {
+      "skillName": "Auto Spell",
+      "maxLevel": 10,
+      "prereq": [{ "windblade": 1 }, { "freezingspear": 1 }, { "flamingpetals": 1 }],
+      "description": "skill",
+      "x": 3,
+      "y": 6
+    },
+    "freecast": {
+      "skillName": "Free Cast",
+      "maxLevel": 10,
+      "prereq": [{ "autospell": 1 }],
+      "description": "skill",
+      "x": 2,
+      "y": 6
+    }
+  }
+}
